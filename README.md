@@ -77,3 +77,7 @@ A simple music player application built using Python and the Tkinter GUI framewo
 Enjoy listening to your favorite tunes with this simple and intuitive music player app!
 
 
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+
