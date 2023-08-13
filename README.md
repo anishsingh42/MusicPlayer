@@ -79,5 +79,26 @@ Enjoy listening to your favorite tunes with this simple and intuitive music play
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](screenshots/screenshot-0.png)
+![Screenshot 2](screenshots/screenshot-1.png)
+![Screenshot 3](screenshots/screenshot-2.png)
+
+
+## Contributing
+
+Contributions are welcome! If you have any improvements, bug fixes, or new features to add, feel free to submit a pull request.
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Open a pull request.
+
+Please ensure that your pull request adheres to the project's coding guidelines and follows the existing code style.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 
