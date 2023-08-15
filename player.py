@@ -41,7 +41,6 @@ class MusicPlayer:
             "CodeClauseInternship_MusicPlayer/song_coverart/artwork-440x440.png"
         ]
 
-        
 
         self.current_song_index = 0
 
@@ -119,6 +118,18 @@ class MusicPlayer:
             self.music.pause()
             self.play_pause_button.config(image = self.play_icon)
             self.is_playing = False
+
+    def toggle_play_pause_song(self):
+        if not self.is_playing:
+            self.is_playing = True
+            self.play_pause_button.config(image=self.pause_icon)
+            if not self.audio_thread.is_alive():
+                self.audio_thread.start()
+        else:
+            self.music.pause()
+            self.play_pause_button.config(image=self.play_icon)
+            self.is_playing = False
+
 
     def play_song(self):
         self.music.load(self.playlist[self.current_song_index])
